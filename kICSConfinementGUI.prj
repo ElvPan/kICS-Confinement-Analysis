@@ -1,0 +1,124 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="721469151" file="C:\Users\BMIF\Documents\MATLAB\GUIs\kICSConfinementGUI.prj" location="C:\Users\BMIF\Documents\MATLAB\GUIs" name="kICSConfinementGUI" target="target.mlapps" target-name="Package App">
+    <param.appname>kICSConfinementGUI</param.appname>
+    <param.authnamewatermark>Elvis Pandzic</param.authnamewatermark>
+    <param.email>e.pandzic@unsw.edu.au</param.email>
+    <param.company>Katharina Gaus Light Microscopy Facility</param.company>
+    <param.icon>${PROJECT_ROOT}\kICSConfinementGUI_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\kICSConfinementGUI_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\kICSConfinementGUI_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\kICSConfinementGUI_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>This GUI implements the membrane protein confinement anlysis based on k-space Image Correlation Spectrosopy (kICS)</param.summary>
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>c7d903f3-7b2e-4c97-b375-766f4dd0fa27</param.guid>
+    <unset>
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\kICSConfinementGUI.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\Users\BMIF\AppData\Roaming\MathWorks\MATLAB Add-Ons\Apps\ApplyWatershedAndVornoiSegmentCells2D\bfmatlabNew\bfCheckJavaMemory.m</file>
+      <file>C:\Users\BMIF\AppData\Roaming\MathWorks\MATLAB Add-Ons\Apps\ApplyWatershedAndVornoiSegmentCells2D\bfmatlabNew\bfCheckJavaPath.m</file>
+      <file>C:\Users\BMIF\AppData\Roaming\MathWorks\MATLAB Add-Ons\Apps\ApplyWatershedAndVornoiSegmentCells2D\bfmatlabNew\bfGetFileExtensions.m</file>
+      <file>C:\Users\BMIF\AppData\Roaming\MathWorks\MATLAB Add-Ons\Apps\ApplyWatershedAndVornoiSegmentCells2D\bfmatlabNew\bfGetPlane.m</file>
+      <file>C:\Users\BMIF\AppData\Roaming\MathWorks\MATLAB Add-Ons\Apps\ApplyWatershedAndVornoiSegmentCells2D\bfmatlabNew\bfGetReader.m</file>
+      <file>C:\Users\BMIF\AppData\Roaming\MathWorks\MATLAB Add-Ons\Apps\ApplyWatershedAndVornoiSegmentCells2D\bfmatlabNew\bfInitLogging.m</file>
+      <file>C:\Users\BMIF\AppData\Roaming\MathWorks\MATLAB Add-Ons\Apps\ApplyWatershedAndVornoiSegmentCells2D\bfmatlabNew\bfopen.m</file>
+      <file>C:\Users\BMIF\AppData\Roaming\MathWorks\MATLAB Add-Ons\Apps\ApplyWatershedAndVornoiSegmentCells2D\bfmatlabNew\bfTestInRange.m</file>
+      <file>C:\Users\BMIF\AppData\Roaming\MathWorks\MATLAB Add-Ons\Apps\ApplyWatershedAndVornoiSegmentCells2D\bfmatlabNew\createMinimalOMEXMLMetadata.m</file>
+      <file>C:\Users\BMIF\AppData\Roaming\MathWorks\MATLAB Add-Ons\Apps\ApplyWatershedAndVornoiSegmentCells2D\bfmatlabNew\private\is_octave.m</file>
+      <file>${PROJECT_ROOT}\consolidator.m</file>
+      <file>${PROJECT_ROOT}\cropSeriesIntoSquareWithinRangeofBinary.m</file>
+      <file>${PROJECT_ROOT}\DiffusionLawByDoubleGaussianFitvsKsqForGUI.m</file>
+      <file>${PROJECT_ROOT}\DiffusionLawBySingleGaussianFitvsKsqForGUI.m</file>
+      <file>${PROJECT_ROOT}\hann2DbetaPower.m</file>
+      <file>${PROJECT_ROOT}\moving_average.m</file>
+      <file>${PROJECT_ROOT}\nanmean.m</file>
+      <file>${PROJECT_ROOT}\nansum.m</file>
+      <file>${PROJECT_ROOT}\readOMEFile_forGUI.m</file>
+      <file>${PROJECT_ROOT}\smoothSeries.m</file>
+      <file>C:\Users\BMIF\Documents\MATLAB\Matlab Codes For May\rd_img16.m</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>C:\Users\BMIF\Documents\MATLAB\bfmatlabNew</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\BMIF\Documents\MATLAB" name="GUIs" optional="false">C:\Users\BMIF\Documents\MATLAB\GUIs</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2021a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
